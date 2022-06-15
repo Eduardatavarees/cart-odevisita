@@ -23,3 +23,42 @@
 </ol>
 </div>
 </html>
+
+body {
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height: 100vh;
+}
+.de{
+  background-image: Url("lilas.jpg");
+  background-repeat:no-repeat;
+  width: 500px;
+  height:270px;
+  display:flex;
+  flex-direction: row;
+  
+}
+
+img{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  border-radius: 50%;
+ 
+}
+ol{
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+  list-style: none;
+  position: relative;
+  top:-25px;
+  
+}
+h1{
+color:pink;
+
+  
+}
+
